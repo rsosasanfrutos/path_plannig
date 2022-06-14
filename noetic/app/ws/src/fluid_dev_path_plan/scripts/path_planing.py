@@ -214,7 +214,7 @@ class Robot(object):
 
 def path_plan():
     rospy.init_node('path_planner')
-    rate = rospy.Rate(1)  # 10hz
+    rate = rospy.Rate(10)  # 10hz
 
     Robot().update()
     while not rospy.is_shutdown():
