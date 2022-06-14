@@ -16,3 +16,9 @@ until the end moving always further down the waypoints path.
 
 The steps of the robot are of 10 cm and the acceptable deviation is configurable 
 from the launch file.
+
+In order to visualize the rviz you might launch the following command in another terminal
+
+```sh
+ rviz -d ws/src/fluid_dev_path_plan/rviz_conf.rviz 
+```
